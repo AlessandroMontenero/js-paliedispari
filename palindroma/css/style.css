@@ -1,0 +1,30 @@
+.red {
+    color: red;
+    text-decoration: underline;
+}
+
+.green {
+    color: green;
+}
+
+#word,
+.insertWord {
+    display: inline-block;
+}
+
+
+#printWord,
+#checkWord
+ {
+    width: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+#checkResult {
+    text-align: center;
+    font-size: 1.8rem;
+}
