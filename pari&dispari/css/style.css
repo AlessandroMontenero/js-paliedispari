@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+#userNum {
+    height: 70px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+}
+
+#cpuNum,
+#sum {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.start {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start div h2 {
+    padding: 0 1rem;
+}
+
+#result {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0 2rem;
+}
+
+.start div {
+    background-color: white;
+    height: 70px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
